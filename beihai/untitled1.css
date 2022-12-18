@@ -61,11 +61,11 @@ img {
 }
 
 .title{
-	margin-left: 20px;
 	font-weight: bold;
-	font-family:barry;
+	font-family:"Titillium Web";
+	font-weight: 100;
 	color: aliceblue;
-	font-size: 70px;
+	font-size: 50px;
 }
 
 p{
@@ -84,7 +84,7 @@ p{
 	text-align: center;
 	height: 100%;
 	position: fixed;
-	font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+	font-family:"Titillium Web";
 	font-weight: bold;
 }
 
