@@ -1,0 +1,143 @@
+/* CSS Document */
+
+html{
+	scroll-behavior:smooth;
+}
+body{
+	margin:0;
+}
+
+#start{
+    padding: 0;
+    float: left;
+    margin-left: 22%;
+    margin-right: 5%;
+    width: 80%;
+}
+
+#nav{
+	margin-right: 78%;
+	width: 22%;
+	float:left;
+	position: fixed;
+}
+
+#content{
+	margin-left:25%;
+	margin-right: 8%;
+	float:left;
+	margin-bottom: 10%;
+}
+
+#tail{
+	margin-left: 25%;
+	float:left;
+	width: 75%;
+	height: 10%;
+}
+#about{
+	padding: 0;
+	float:left;
+	margin-left: 22%;
+	margin-right: 5%;
+	width: 80%;
+}
+
+
+video{
+	width: 70%;
+	heights:70%;
+	border-radius: 8px;
+}
+
+img {
+    border-radius: 8px;
+}
+.start{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+	border-radius: 0px;
+}
+
+.title{
+	margin-left: 20px;
+	font-weight: bold;
+	font-family:barry;
+	color: aliceblue;
+	font-size: 70px;
+}
+
+p{
+ 	text-align:justify;
+	text-justify:inter-ideograph;
+	font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+	font-weight:400;
+}
+
+.catalog {
+	background-color: #171717;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 22%;
+	text-align: center;
+	height: 100%;
+	position: fixed;
+	font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+	font-weight: bold;
+}
+
+.catalog li{
+	height: 100px;
+}
+ 
+.catalog li a {
+    display: block;
+    color: #F0F0F0;
+	padding: 40px 16px;
+    text-decoration: none;
+	text-align: center;
+}
+ 
+
+/* 鼠标移动到选项上修改背景颜色 */
+.catalog li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+/* 鼠标点击选项后的颜色*/
+.catalog li a:active {
+    background-color: #556;
+    color: white;
+}
+
+.help:link{
+	font-size: 10;
+	font-weight: normal;
+}
+
+.doujiao{
+	width: 50%;
+	height: 50%;
+}
+
+.zhujiaofen{
+	width: 40%;
+	heights:40%;
+}
+.jd0{
+	width: 70%;
+	heights:70%;
+}
+.jd1{
+	width: 60%;
+	heights:60%;
+}
+.about{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+	border-radius: 0px;
+}
