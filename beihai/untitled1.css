@@ -4,17 +4,50 @@ html{
 	scroll-behavior:smooth;
 }
 body{
-	margin:0;
+	margin: 0px;
 }
 
-#start{
-    padding: 0;
-    float: left;
-    margin-left: 22%;
-    margin-right: 5%;
-    width: 80%;
+.loop-wrap {
+    position: relative;
+    height: 500px;
+	margin:auto;
+    overflow: hidden;
+	float: left;
+	margin-left: 22%;
+	width: 80%;
+}
+.loop-wrap img{
+    width: 20%;
+    height: 100%;
+}
+.start{
+    position: absolute;
+    left: 0; top: 0;
+    width: 500%;
+    height: 100%;
+    font-size: 0;
+    transform: translate(0,0); /* 初始位置位移 */
+    animation: loop 10s linear infinite;
 }
 
+@keyframes loop {
+    0% {transform: translate(0,0);}
+    15% {transform: translate(0,0);} /* 停留1500ms */
+
+    20% {transform: translate(-20%,0);} /* 切换500ms 位移-20% */
+    35% {transform: translate(-20%,0);}
+
+    40% {transform: translate(-40%,0);}
+    55% {transform: translate(-40%,0);}
+
+    60% {transform: translate(-60%,0);}
+    75% {transform: translate(-60%,0);}
+
+    80% {transform: translate(-80%,0);}
+    95% {transform: translate(-80%,0);}
+
+    100% {transform: translate(0,0);} /* 复位到第一张图片 */
+}
 #nav{
 	margin-right: 78%;
 	width: 22%;
@@ -53,7 +86,7 @@ video{
 img {
     border-radius: 8px;
 }
-.start{
+.start_img{
     width: 100%;
     height: 100%;
     object-fit: cover;
